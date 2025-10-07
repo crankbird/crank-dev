@@ -1,0 +1,8 @@
+--- ---
+/* overrides */
+@import "{{ site.theme_scss | default: 'main' }}";
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+}
